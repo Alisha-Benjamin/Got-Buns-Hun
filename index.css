@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    font-size: 5vh;
+}
+
+/* Reset styling for the navigation container */
+.topnav {
+    background-color: transparent; /* Make background transparent */
+    overflow: hidden; /* Ensures the content is wrapped by the bar */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    text-align: center; /* Center the navigation links */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    display: inline-block; /* Align links in a row and allow spacing */
+    color: #666; /* Dark grey text, subtle and minimal */
+    text-align: center; /* Center text inside the link */
+    padding: 10px 15px; /* Top and bottom padding, and more on the sides */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+    border-bottom: 2px solid transparent; /* Transparent border for a uniform look */
+}
+
+/* Change the color of links and underline on hover */
+.topnav a:hover {
+    color: #333; /* Darken text color for contrast */
+    border-bottom: 2px solid #6096B4; /* Blue underline on hover */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: #333; /* Dark text for better visibility */
+    border-bottom: 2px solid #6096B4; /* Blue underline for the active link */
+}
+
+footer{
+    background-color: #b3b3b3;
+}
