@@ -62,7 +62,7 @@ body{
 
 }
 footer {
-    background-color: #ffd1dc;
+    background-color: #E9E9E9 ;
     align-items: center;
     padding: 0;
 }
@@ -71,4 +71,10 @@ footer {
 }
 .contact{
     text-align: center;
+}
+.contact img{
+    width: 3.5%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
